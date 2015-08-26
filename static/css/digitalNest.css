@@ -1,0 +1,55 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #aaa;
+}
+
+.img-responsive {
+    display: inline-block;
+}
+
+.navbar .navbar-inner {
+    text-align: center;
+}
+.navbar .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+}
+
+.navbar .navbar-inner a{
+    color: #333;
+}
+
+/*.navbar .brand {
+  padding: 8px 20px 12px;
+  font-size: 20px;
+  color: #727272;
+}*/
+
+.navbar .navbar-inner .nav > li > a {
+  padding: 10px 10px 11px;
+  font-size: 14px;
+  color: #666666;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navbar .navbar-inner .nav > li > a:focus,
+.navbar .navbar-inner .nav > li > a:hover {
+  color: #333;
+  background-color: #aaa;
+  text-decoration: none;
+}
+
+.navbar .navbar-inner .nav > li > a.active {
+    color: #333;
+    background-color: transparent;
+    text-decoration: underline;
+}
